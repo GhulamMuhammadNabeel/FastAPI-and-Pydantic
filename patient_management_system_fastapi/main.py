@@ -63,7 +63,7 @@ def hello():
 # ABout
 @app.get('/about')
 def about():
-    return {'message':'A Fully functional patoent management API'}
+    return {'message':'A Fully functional patient management API'}
 
 # Read all patients
 @app.get('/view')
